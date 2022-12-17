@@ -1,0 +1,182 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 19%, rgba(0,212,255,1) 100%);
+}
+.section1{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.heading1, .heading2{
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+}
+.heading1{
+   
+    font-size: 3em;
+
+}
+.logo{
+    width: 100px;
+    
+
+}
+/* .logo:hover{
+    border: 0.5px solid;
+    border-radius: 50%;
+    padding: 0px;
+    box-shadow: 2px 5px #00b6988a;
+} */
+.heading2{
+
+    font-size: 2em;
+}
+nav {
+    text-decoration: none;
+}
+nav{
+    padding-top: 15px;
+    background-color: rgb(117, 117, 117);
+    
+}
+nav .nav-link:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 19%, rgba(0,212,255,1) 100%);
+    color: white;
+    border-radius: 10px;
+}
+
+.nav-link{
+    color:rgb(0, 0, 0);
+    line-height: 25px;
+        /* padding: 0px 15px 0px 15px; */
+        font-size: 1.5em;
+        font-family: 'Russo One', sans-serif;
+}
+input{
+    border-radius: 18px;
+    border: 2px solid black;
+    float: right;
+    font-family: 'Russo One', sans-serif;
+}
+.img1, .img2, .img3, .img4{
+    /* position: absolute; */
+
+    width: 100px;
+}
+.img1a, .img2a, .img3a, .img4a{
+    width: 50px;
+    position: absolute;
+    left: 55%;
+    top: 25%;
+}
+.c1, .c2, .c3, .c4{
+    margin-top: 50px;
+}
+.card:hover{
+    border: 0.5px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #2c2c2c;
+}
+#cards a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width:767px){
+    .c1, .c2, .c3, .c4{
+        margin-left: 25%;
+    }
+}
+#slides{
+    margin-top: 5%;
+    margin-bottom: 500px;
+}
+.slide1{
+    background-image:url(/practice/images/slide1image.png);
+    height: 50em;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slide1hd{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Russo One', sans-serif;
+}
+.downimg{
+    width: 50px;
+    position: absolute;
+    top: 6.2%;
+    left: 14%;
+}
+.linksslide1{
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10%;
+}
+.linksslide1 a{
+    font-family: 'Russo One', sans-serif;
+    color: red;
+    font-size: 1.2em;
+}
+.slide2{
+    background-image:url(/practice/images/slide2image.png);
+    height: 40em;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.cpylogos{
+    background-color: white;
+    height: 170px;
+    text-align: center;
+    margin-top: 5%;
+}
+.mail{
+    width: 60px;
+    padding: 1%;
+
+}
+.sch{
+    text-decoration: underline;
+    padding-top: 2%;
+}
+.mail:hover{
+    border-radius: 50%;
+    padding: 1%;
+    width: 65px;
+    background-color: rgb(121, 121, 121);
+}
+#sidebar{
+    margin-top: 0;
+}
+.staticsec{
+    color: white;
+    background-color: red;
+    width: 150px;
+    border-radius: 5px;
+    height: 50px;
+    /* transform: rotate(270deg); */
+   margin-right: 0;
+    position: fixed;
+    right: 0;
+    top: 40%;
+}
+.container_txt{
+   padding-top: 5%;
+}
+.staticsec a{
+    text-decoration: none;
+    color: white;
+}
+.staticsec a:hover{
+    color: #000000;
+
+}
+.staticsec:hover{
+    background-color: yellow;
+    width: 500px;
+    height: 75px;
+    color: #000000;
+}
