@@ -1,0 +1,22 @@
+git config --global user.name "HHHHemanth"
+git config --global user.email "hemanth2102003acc2@gmail.com"
+
+git init
+
+git status
+
+git add --all
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/HHHHemanth/hemanthpractice
+
+git push -u origin master
+
+git branch
+
+git branch new_branch_name
+
+git checkout new_branch_name
+
+SSH to push-----clone to pull
